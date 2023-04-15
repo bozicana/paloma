@@ -1,0 +1,21 @@
+*{
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(233, 19, 108);
+    text-align: center;
+    background-image: url(../assets/img/image_50733057.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+img{
+    width: 80%;
+}
+#arrow{
+    color: rgb(233, 19, 108);
+    font-size: 30px;
+}
