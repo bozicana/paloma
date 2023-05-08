@@ -8,14 +8,29 @@ body {
   margin: 0 auto;
   color: rgb(233, 19, 108);
   text-align: center;
-  background-image: url(../assets/img/image_50733057.JPG);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: black;
 }
-img {
-  width: 80%;
+h2{
+  font-size: 40px;
+  padding-top: 25px;
+}
+#lunch{
+  float: left;
+  display: inline-block;
+  width: 49%;
+}
+img{
+  padding: 20px;
+  width: 500px;
+}
+#dinner{
+  float: right;
+  display: inline-block;
+  width: 49%;
 }
 #arrow {
   color: rgb(233, 19, 108);
-  font-size: 30px;
+  font-size: 40px;
+  position: absolute;
+  top: 900px
 }

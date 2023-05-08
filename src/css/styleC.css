@@ -14,7 +14,19 @@ body {
 h2 {
   font-size: 60px;
   padding: 30px;
+  }
+a{
+  color: rgb(233, 19, 108);
+  text-decoration: none;
 }
 #arrow {
   color: rgb(233, 19, 108);
+  padding-top: 600px;
+}
+#co1{
+  float: left;
+  display: inline-block;
+}
+#co2{
+  float: right;
 }

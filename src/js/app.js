@@ -1,5 +1,5 @@
 const tel = document.getElementById("tel");
-tel.addEventListener("mouseover", function () {
+tel.addEventListener("mousein", function () {
   tel.style.fontSize = "60px";
 });
 tel.addEventListener("mouseout", function () {

@@ -8,13 +8,33 @@ body {
   margin: 0 auto;
   color: rgb(233, 19, 108);
   text-align: center;
-  font-size: 35px;
-  background-color: black;
+  background-image: url(../assets/img/cover1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 h2 {
   font-size: 60px;
   padding: 30px;
 }
-#arrow {
+#c1{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#insta, #tiktok{
+  margin-bottom: 30px;
+}
+img{
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+#arrow{
   color: rgb(233, 19, 108);
+  font-size: 40px;
+  position: absolute;
+  top: 580px;
+  left: 49%;
 }
