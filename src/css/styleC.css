@@ -25,7 +25,13 @@ a{
 }
 #co1{
   float: left;
-  display: inline-block;
+  text-align: center;
+}
+#email{
+  display: block;
+  padding: 5px;
+  margin: 10px 0;
+  width: 300px;
 }
 #co2{
   float: right;

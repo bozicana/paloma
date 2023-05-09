@@ -16,10 +16,10 @@
     <div id="co1">
       <span>Téléphone:<br /></span>
       <a href="tel:+33954766701" id="tel">09.54.76.67.01</a><br/><br>
-      <form action="">
+      <form action="../php/mail.php" method="post">
         <label for="message"><span>Écrivez-nous:</span></label> <br />
-        
-        <textarea cols="55" rows="23" name="message" id="message"></textarea
+        <input type="email" name="email" id="email" placeholder="Écrivez votre e-mail">
+        <textarea cols="55" rows="20" name="message" id="message"></textarea
         ><br />
         <input type="submit" value="Envoyer" />
         <input type="reset" value="Réinitialiser" />
